@@ -45,7 +45,13 @@
                 });
 ```
 
-
+## ProGuard
+If you are using ProGuard you might need to add the following option:
+```
+-keep public class org.jsoup.** {
+    public *;
+}
+```
 
 ## Contact
 
